@@ -87,8 +87,7 @@
     cursor: pointer;
 }
 .cancel{
-    position: relative;
-    top:80px;
+    margin-top:80px;
     color:black;
     width: 100px;
     height: 12px;
@@ -102,4 +101,5 @@
 .cancel a{
     text-decoration: none;
     color: black;
+
 }
