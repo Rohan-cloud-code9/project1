@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 350px;
+    background-color: white;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px;
+}
+
+.img{
+    width: 100%;
+    height: 150px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    width: 100%;
+}
+.heading{
+    position: relative;
+    top: 20px;
+}
+.para{
+    position: relative;
+    top: 35px;
+}
+
+.amount{
+    width: 80%;
+    margin: auto;
+    background-color: lightskyblue;
+    position: relative;
+    top:45px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 48px;
+    align-items: center;
+    border-radius: 10px;
+}
+.logo{
+    height: 35px;
+    width: 80px;
+    position: relative;
+    right: 20px;
+}
+.logo img{
+    width: 70%;
+    height: 100%;
+    object-fit: fill;
+    background-color: #2193b0;
+    border-radius: 10px;
+}
+.pay{
+    width: 80%;
+    height: 48px;
+}
+.pay button{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(61, 22, 169);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cancel{
+    position: relative;
+    top:80px;
+    color:black;
+    width: 100px;
+    height: 12px;
+    font-weight: 650;
+}
+.charge{
+    width: 40px;
+    position: relative;
+    right: 30px;
+}
+.cancel a{
+    text-decoration: none;
+    color: black;
+}
